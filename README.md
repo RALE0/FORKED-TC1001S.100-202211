@@ -4,15 +4,23 @@ Sample code for the Computer Tools course challenge
 Authors:
 
 Nombre: Aarón Castillo Cervantes
+
 Carrera: ITD
+
 Semestre: 6to
 
+
 Nombre: Samuel Acevedo Sandoval
+
 Carrera: ITC
+
 Semestre: 2ndo
 
+
 Nobre: David Santiago Vieyra García
+
 Carrera: ITC
+
 Semestre: 2ndo
 
 
