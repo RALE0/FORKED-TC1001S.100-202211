@@ -3,11 +3,11 @@ Sample code for the Computer Tools course challenge
 
 Authors:
 
-Nombre: Aarón Castillo Cervantes
+   Nombre: Aarón Castillo Cervantes
 
-Carrera: ITD
+   Carrera: ITD
 
-Semestre: 6to
+   Semestre: 6to
 
 
 
@@ -21,11 +21,11 @@ Semestre: 2ndo
 
 
 
-Nombre: David Santiago Vieyra García
+   Nombre: David Santiago Vieyra García
 
-Carrera: ITC
+   Carrera: ITC
 
-Semestre: 2ndo
+   Semestre: 2ndo
 
 
 
