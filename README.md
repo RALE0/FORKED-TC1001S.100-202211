@@ -1,5 +1,4 @@
-# TC1001S - Herramientas Computacionales
-Sample code for the Computer Tools course challenge
+# TC1001S - Herramientas Computacionales (Gpo 100)
 
 Authors:
 
