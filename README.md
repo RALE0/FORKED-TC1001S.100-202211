@@ -11,6 +11,7 @@ Semestre: 6to
 
 
 
+
 Nombre: Samuel Acevedo Sandoval
 
 Carrera: ITC
@@ -19,11 +20,13 @@ Semestre: 2ndo
 
 
 
+
 Nobre: David Santiago Vieyra García
 
 Carrera: ITC
 
 Semestre: 2ndo
+
 
 
 
