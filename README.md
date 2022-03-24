@@ -10,6 +10,7 @@ Carrera: ITD
 Semestre: 6to
 
 
+
 Nombre: Samuel Acevedo Sandoval
 
 Carrera: ITC
@@ -17,11 +18,13 @@ Carrera: ITC
 Semestre: 2ndo
 
 
+
 Nobre: David Santiago Vieyra García
 
 Carrera: ITC
 
 Semestre: 2ndo
+
 
 
 Original games code from: http://www.grantjenks.com/docs/freegames/index.html
