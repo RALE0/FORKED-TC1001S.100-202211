@@ -1,7 +1,20 @@
 # TC1001S - Herramientas Computacionales
 Sample code for the Computer Tools course challenge
 
-Author: Gilberto Echeverria
+Authors:
+
+Nombre: Aarón Castillo Cervantes
+Carrera: ITD
+Semestre: 6to
+
+Nombre: Samuel Acevedo Sandoval
+Carrera: ITC
+Semestre: 2ndo
+
+Nobre: David Santiago Vieyra García
+Carrera: ITC
+Semestre: 2ndo
+
 
 Original games code from: http://www.grantjenks.com/docs/freegames/index.html
 Games included:
