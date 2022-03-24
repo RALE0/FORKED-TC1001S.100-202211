@@ -21,7 +21,7 @@ Semestre: 2ndo
 
 
 
-Nobre: David Santiago Vieyra García
+Nombre: David Santiago Vieyra García
 
 Carrera: ITC
 
