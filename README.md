@@ -66,6 +66,19 @@ To install the required software, run the following commands:
 
 Aaron Castillo Cervantes 
 
+Juego: memory.py 
+Cambios: 
+   1. Mostrar en la consola el numero de taps que el usurio reliza 
+
+Juego: paint.py 
+Cambios: 
+   1. Función que dibuja el triangulo 
+   2. Adición del color Cyan 
+
+Juego: snake.py
+Cambios: 
+   1. Inicialización random de manzanas 
+
 
 
 Samuel Acevedo Sandoval
