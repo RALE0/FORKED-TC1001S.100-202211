@@ -1,5 +1,5 @@
 # TC1001S - Herramientas Computacionales (Gpo 100)
-<pre>
+#<pre>
 Authors:
 
    Nombre: Aarón Castillo Cervantes
@@ -126,4 +126,4 @@ Cambios:
    1. Función para que el juego pudiese dibujar un rectángulo.
    2. Se agrego el color naranja ("orange") presionando ("O").
 
-</pre>
+#</pre>
