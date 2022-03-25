@@ -18,7 +18,7 @@ state = {'score': 0}
 path = Turtle(visible=False)
 writer = Turtle(visible=False)
 aim = vector(5, 0)
-pacman = vector(-40, -80)
+pacman = vector(-40, 40)
 ghosts = [
     [vector(-180, 160), vector(5, 0)],
     [vector(-180, -160), vector(0, 5)],
@@ -133,6 +133,11 @@ def move():
                 vector(0, 5),
                 vector(0, -5),
             ]
+#Si las coordenadas del fantasma en x o y son iguales a las de pacman, la dirección a donde los fantasmas fantasmas vayan, será la de pacman.
+            if point.x == pacman.x or point.y == pacman.y:
+                plan = aim
+            else:
+                plan = choice(options)
             plan = choice(options)
             course.x = plan.x
             course.y = plan.y
