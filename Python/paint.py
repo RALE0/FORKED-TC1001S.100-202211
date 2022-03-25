@@ -1,4 +1,4 @@
-"""Paint, for drawing shapes.
+"""Paint, for drawing shpes.
 
 Exercises
 
@@ -25,6 +25,7 @@ main
 """
 
 import math
+from math import *
 from math import hypot
 from turtle import *
 import turtle 
@@ -62,7 +63,17 @@ def circle2(start, end):
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    for count in range(2):
+        forward(end.x - start.x)
+        right(90)
+        forward((end.x - start.x)*0.5)
+        right(90)
+    end_fill()
 
 def triangle(start, end):
     "Draw triangle from start to end."
@@ -105,6 +116,7 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+onkey(lambda: color('orange'), 'O')
 onkey(lambda: color('purple'), 'P')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
