@@ -15,6 +15,8 @@ from freegames import square, vector
 import random
 
 snake_color=['orange', 'yellow', 'green', 'blue', 'purple']
+apple_color=['green', 'black', 'pink', 'cyan']
+appleC=random.choice(apple_color)
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
@@ -52,7 +54,7 @@ def move():
     for body in snake:
          square(body.x, body.y, 9, random.choice(snake_color))
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 9, appleC)
     update()
     ontimer(move, 100)
 
