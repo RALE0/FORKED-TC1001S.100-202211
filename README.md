@@ -64,7 +64,7 @@ To install the required software, run the following commands:
 
 ## Cambios Realizados por cada miembro 
 
-**Aaron Castillo Cervantes**
+***Aaron Castillo Cervantes***
 
 Juego: memory.py 
 
@@ -90,11 +90,11 @@ Cambios:
 
 
 
-**Samuel Acevedo Sandoval**
+***Samuel Acevedo Sandoval***
 
 
 
-**David Santiago Vieyra García**
+***David Santiago Vieyra García***
 
 
 
