@@ -24,6 +24,7 @@ ITD
 """
 
 from turtle import *
+import turtle 
 from freegames import vector
 
 def line(start, end):
@@ -56,7 +57,17 @@ def rectangle(start, end):
 
 def triangle(start, end):
     "Draw triangle from start to end."
-    pass  # TODO
+    tur = turtle.Turtle()
+ 
+    tur.forward(100)  
+    tur.left(120)
+    tur.forward(100)
+    
+    tur.left(120)
+    tur.forward(100)
+    
+    turtle.done()
+
 
 def tap(x, y):
     "Store starting point or draw shape."
@@ -80,6 +91,7 @@ onscreenclick(tap)
 listen()
 onkey(undo, 'u')
 onkey(lambda: color('black'), 'K')
+onkey(lambda: color('cyan'), 'C')
 onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
