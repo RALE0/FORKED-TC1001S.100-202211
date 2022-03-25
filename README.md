@@ -1,5 +1,5 @@
 # TC1001S - Herramientas Computacionales (Gpo 100)
-
+<pre>
 Authors:
 
    Nombre: Aarón Castillo Cervantes
@@ -7,21 +7,20 @@ Authors:
    Carrera: ITD
 
    Semestre: 6to
-&nbsp;
+
 
 Nombre: Samuel Acevedo Sandoval
 
 Carrera: ITC
 
 Semestre: 2ndo
-&nbsp;
+
 
    Nombre: David Santiago Vieyra García
 
    Carrera: ITC
 
    Semestre: 2ndo
-
 
 
 
@@ -64,22 +63,18 @@ To install the required software, run the following commands:
 
 Juego: memory.py 
 
-
 Cambios: 
    1. Mostrar en la consola el numero de taps que el usurio reliza 
 
-Juego: paint.py 
 
+Juego: paint.py 
 
 Cambios: 
    1. Función que dibuja el triangulo 
    2. Adición del color Cyan 
 
 
-
-
 Juego: snake.py
-
 
 Cambios: 
    1. Inicialización random de manzanas 
@@ -90,23 +85,18 @@ Cambios:
 
 Juego: snake.py
 
-
 Cambios:
    1. Cambio de la velocidad de la serpiente.
 
 
-
 Juego: pacman.py
-
 
 Cambios:
    1. Cambio del tablero.
    2. Cambio de colores del tablero y los fantasmas.
 
 
-
 Juego: paint.py
-
 
 Cambios:
    1. Función para que el juego pudiese dibujar un circulo.
@@ -136,3 +126,4 @@ Cambios:
    1. Función para que el juego pudiese dibujar un rectángulo.
    2. Se agrego el color naranja ("orange") presionando ("O").
 
+</pre>
