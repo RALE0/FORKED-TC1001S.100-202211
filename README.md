@@ -23,7 +23,7 @@ Semestre: 2ndo
    Semestre: 2ndo
 
 
-
+</pre>
 Original games code from: http://www.grantjenks.com/docs/freegames/index.html
 Games included:
 - Paint
@@ -60,7 +60,7 @@ To install the required software, run the following commands:
 ## Cambios Realizados por cada miembro 
 
 ***Aaron Castillo Cervantes***
-
+<pre>
 Juego: memory.py 
 
 Cambios: 
@@ -80,9 +80,9 @@ Cambios:
    1. Inicialización random de manzanas 
 
 
-
+</pre>
 ***Samuel Acevedo Sandoval***
-
+<pre>
 Juego: snake.py
 
 Cambios:
@@ -103,9 +103,9 @@ Cambios:
    2. Se agrego el color morado ("purple") presionando ("P").
 
 
-
+</pre>
 ***David Santiago Vieyra García***
-
+<pre>
 Juego: snake.py
 
 Cambios:
@@ -125,5 +125,6 @@ Juego: paint.py
 Cambios:
    1. Función para que el juego pudiese dibujar un rectángulo.
    2. Se agrego el color naranja ("orange") presionando ("O").
+
 
 </pre>
