@@ -116,7 +116,27 @@ Cambios:
    1. Función para que el juego pudiese dibujar un circulo.
    2. Se agrego el color morado ("purple") presionando ("P").
 
+
+
 ***David Santiago Vieyra García***
 
+Juego: snake.py
 
+Cambios:
+   1. Color de serpiente en modo arcoíris.
+   2. Colores random de manzanas, cada que se inicia el juego.
+
+
+Juego: pacman.py
+
+Cambios:
+   1. Posición incial de Pacman.
+   2. Fantasmas más inteligentes.
+
+
+Juego: paint.py
+
+Cambios:
+   1. Función para que el juego pudiese dibujar un rectángulo.
+   2. Se agrego el color naranja ("orange") presionando ("O").
 
