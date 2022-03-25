@@ -12,8 +12,14 @@ Exercises
 from turtle import *
 from random import randrange
 from freegames import square, vector
+import random
 
-food = vector(0, 0)
+#Set initial values 
+#initial aleatory position of the food 
+n = randrange(-15,15)*10
+food = vector(n,n)
+
+#food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
 
