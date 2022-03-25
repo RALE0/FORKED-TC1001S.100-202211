@@ -79,6 +79,9 @@ Cambios:
    1. Función que dibuja el triangulo 
    2. Adición del color Cyan 
 
+
+
+
 Juego: snake.py
 
 
