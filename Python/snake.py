@@ -12,8 +12,17 @@ Exercises
 from turtle import *
 from random import randrange
 from freegames import square, vector
+import random
 
-food = vector(0, 0)
+
+snake_color=['orange', 'yellow', 'green', 'blue', 'purple']
+apple_color=['green', 'black', 'pink', 'cyan']
+appleC=random.choice(apple_color)
+#Set initial values 
+#initial aleatory position of the food 
+n = randrange(-15,15)*10
+food = vector(n,n)
+
 snake = [vector(10, 0)]
 aim = vector(0, -10)
 
@@ -46,13 +55,13 @@ def move():
         snake.pop(0)
 
     clear()
-
+ 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+         square(body.x, body.y, 9, random.choice(snake_color))
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 9, appleC)
     update()
-    ontimer(move, 100)
+    ontimer(move, 75)
 
 setup(420, 420, 370, 0)
 hideturtle()
