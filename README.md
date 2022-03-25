@@ -59,3 +59,20 @@ To install the required software, run the following commands:
 2. apt-get install python3-tkinter
 3. apt-get install python3-pip
 4. pip3 install freegames
+
+
+
+## Cambios Realizados por cada miembro 
+
+Aaron Castillo Cervantes 
+
+
+
+Samuel Acevedo Sandoval
+
+
+
+David Santiago Vieyra García
+
+
+
