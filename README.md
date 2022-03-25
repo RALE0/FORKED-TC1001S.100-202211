@@ -92,7 +92,29 @@ Cambios:
 
 ***Samuel Acevedo Sandoval***
 
+Juego: snake.py
 
+
+Cambios:
+   1. Cambio de la velocidad de la serpiente.
+
+
+
+Juego: pacman.py
+
+
+Cambios:
+   1. Cambio del tablero.
+   2. Cambio de colores del tablero y los fantasmas.
+
+
+
+Juego: paint.py
+
+
+Cambios:
+   1. Función para que el juego pudiese dibujar un circulo.
+   2. Se agrego el color morado ("purple") presionando ("P").
 
 ***David Santiago Vieyra García***
 
