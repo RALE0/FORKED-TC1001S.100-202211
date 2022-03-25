@@ -7,18 +7,14 @@ Authors:
    Carrera: ITD
 
    Semestre: 6to
-
-
-
+&nbsp;
 
 Nombre: Samuel Acevedo Sandoval
 
 Carrera: ITC
 
 Semestre: 2ndo
-
-
-
+&nbsp;
 
    Nombre: David Santiago Vieyra García
 
