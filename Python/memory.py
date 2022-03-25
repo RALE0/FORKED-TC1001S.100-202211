@@ -14,8 +14,10 @@ from random import *
 from turtle import *
 from freegames import path
 
-"Contar y desplegar el numero de taps"
-tab =0
+"""
+Contar y desplegar el numero de taps
+"""
+taps =0
 car = path('car.gif')
 tiles = list(range(32)) * 2
 state = {'mark': None}
@@ -47,11 +49,15 @@ def tap(x, y):
     "Update mark and hidden tiles based on tap."
     spot = index(x, y)
     mark = state['mark']
-    global taps "Contar y desplegar el numero de taps"
+    global taps 
+    "Contar y desplegar el numero de taps"
     if mark is None or mark == spot or tiles[mark] != tiles[spot]:
         state['mark'] = spot
         taps += 1
-        print(taps)  "Contar y desplegar el numero de taps"
+        print(taps)  
+        """
+        Contar y desplegar el numero de taps
+        """
 
     else:
         hide[spot] = False
