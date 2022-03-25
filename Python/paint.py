@@ -7,10 +7,27 @@ Exercises
 3. Complete rectangle.
 4. Complete triangle.
 5. Add width parameter.
+Authors: 
+Circle
+Samuel Acevedo
+ITC
+2do Semestre
+David Vieyra
+ITC
+2do Semestre
+Aarón Castillo
+ITD
+6to Semestre
+=======
+Gilberto Echeverria
+main
 
 """
 
+import math
+from math import hypot
 from turtle import *
+import turtle 
 from freegames import vector
 
 def line(start, end):
@@ -33,9 +50,15 @@ def square(start, end):
 
     end_fill()
 
-def circle(start, end):
+def circle2(start, end):
     "Draw circle from start to end."
-    pass  # TODO
+    radius = math.sqrt((end.x - start.x)**2 + (end.y - start.y)**2)
+    up()
+    goto(start.x, start.y - radius)
+    down()
+    begin_fill()
+    circle(radius)
+    end_fill()
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
@@ -43,7 +66,17 @@ def rectangle(start, end):
 
 def triangle(start, end):
     "Draw triangle from start to end."
-    pass  # TODO
+    tur = turtle.Turtle()
+ 
+    tur.forward(100)  
+    tur.left(120)
+    tur.forward(100)
+    
+    tur.left(120)
+    tur.forward(100)
+    
+    turtle.done()
+
 
 def tap(x, y):
     "Store starting point or draw shape."
@@ -67,13 +100,15 @@ onscreenclick(tap)
 listen()
 onkey(undo, 'u')
 onkey(lambda: color('black'), 'K')
+onkey(lambda: color('cyan'), 'C')
 onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+onkey(lambda: color('purple'), 'P')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
-onkey(lambda: store('shape', circle), 'c')
+onkey(lambda: store('shape', circle2), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
